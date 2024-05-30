@@ -33,7 +33,7 @@ Registra um novo usuário na plataforma.
 
 #### Login de Usuário
 
-  POST /api/auth/login
+    POST /api/auth/register
 
 Realiza o login de um usuário existente.
 
@@ -89,3 +89,33 @@ Cria um novo cliente.
     PUT /api/customers/:id
 
 Atualiza as informações de um cliente existente com base no ID fornecido.
+
+**Corpo da Requisição:**
+
+```json
+{
+  "name": "Novo Nome do Cliente",
+  "email": "novocliente@example.com",
+  "phone": "+55123456789"
+}
+```
+
+#### Excluir Cliente
+
+  DELETE /api/customers/:id
+
+Exclui um cliente existente com base no ID fornecido.
+
+### Gerenciamento de Projetos
+
+#### Listar Projetos
+
+  GET /api/projects
+
+Retorna a lista de todos os projetos cadastrados.
+
+#### Obter Projeto por ID
+
+  GET /api/projects/:id
+
+Retorna os detalhes de um projeto específico com base no ID fornecido.
