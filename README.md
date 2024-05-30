@@ -116,7 +116,7 @@ Retorna a lista de todos os projetos cadastrados.
 
 #### Obter Projeto por ID
 
-   GET /api/projects/:id
+    GET /api/projects/:id
 
 Retorna os detalhes de um projeto específico com base no ID fornecido.
 
