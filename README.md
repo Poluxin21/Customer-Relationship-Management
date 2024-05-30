@@ -246,9 +246,9 @@ Crie um arquivo `.env` na raiz do projeto e defina as seguintes variáveis de am
 
 
 4. Inicie o servidor:
-
-    npm start (se configurar o package.json) ou node src/server.js
-
+  ```bash
+  npm start (se configurar o package.json) ou node src/server.js
+  ```
 O servidor será iniciado na porta padrão 5000. Você pode acessar a API em `http://localhost:5000`.
 
 ## Contribuição
